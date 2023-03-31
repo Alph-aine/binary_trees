@@ -19,7 +19,7 @@ $(NAME): $(OBJ)
 -include $(DEP)
 
 clean:
-	$(RM) $(NAME) $(DEP)
+	$(RM) $(NAME) $(DEP) $(NAME).d
 
 oclean:
 	$(RM) $(OBJ) $(DEP)
